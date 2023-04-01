@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background-color: #fefefe;
+    background-color: #fefefe;
+    opacity: 0.9;
+    background-image: radial-gradient(#9bcbff 0.8px, #fefefe 0.8px);
+    background-size: 16px 16px;
+
+}
+
+#titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #1572d6
+}
+
+#btn-gerar-senha {
+    background-color: #065db9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .40s;
+    box-shadow: 0px 4px 15px rgb(0 0 0 / 20%);
+}
+
+#btn-gerar-senha:hover {
+    background-color: #3787db;
+}
+
+/* Define o estilo para a caixa de texto da senha gerada */
+#senha-gerada {
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #bbd1f1;
+    border: none;
+    border-radius: 5px;
+}
+
+.svg {
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+}
+
